@@ -1,2 +1,2 @@
 # Alcatel_V860_smart_2
-Roms , drivers & tools
+Roms , Drivers &amp; tools for The Alcatel V860 also knowed as Vodafone Smart 2
