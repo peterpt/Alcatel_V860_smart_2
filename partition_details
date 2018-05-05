@@ -1,0 +1,46 @@
+ # cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 01000000 00020000 "modem"
+mtd1: 00100000 00020000 "sysparm_ind"
+mtd2: 00a00000 00020000 "comms"
+mtd3: 000c0000 00020000 "dsp_pram"
+mtd4: 00300000 00020000 "dsp_dram"
+mtd5: 00100000 00020000 "bootloader"
+mtd6: 00080000 00020000 "systemdata"
+mtd7: 00040000 00020000 "deviceinfo"
+mtd8: 00040000 00020000 "ckdatablock"
+mtd9: 00100000 00020000 "bootloader2"
+mtd10: 00080000 00020000 "FOTAFLAG"
+mtd11: 00500000 00020000 "boot"
+mtd12: 00500000 00020000 "recovery"
+mtd13: 00040000 00020000 "misc"
+mtd14: 00080000 00020000 "boot2icon"
+mtd15: 08300000 00020000 "system"
+mtd16: 03c00000 00020000 "cache"
+mtd17: 00100000 00020000 "kpanic"
+mtd18: 06a00000 00020000 "custpack"
+mtd19: 0ac00000 00020000 "userdata"
+
+# cat /proc/partitions
+major minor  #blocks  name
+
+  31        0      16384 mtdblock0
+  31        1       1024 mtdblock1
+  31        2      10240 mtdblock2
+  31        3        768 mtdblock3
+  31        4       3072 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7        256 mtdblock7
+  31        8        256 mtdblock8
+  31        9       1024 mtdblock9
+  31       10        512 mtdblock10
+  31       11       5120 mtdblock11
+  31       12       5120 mtdblock12
+  31       13        256 mtdblock13
+  31       14        512 mtdblock14
+  31       15     134144 mtdblock15
+  31       16      61440 mtdblock16
+  31       17       1024 mtdblock17
+  31       18     108544 mtdblock18
+  31       19     176128 mtdblock19
